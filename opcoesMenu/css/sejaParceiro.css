@@ -1,0 +1,382 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#div_menu {
+    width: 20vw;
+    height: 100vh;
+    background: black;
+    z-index: 999;
+    margin-top: -8vh;
+    transition: 0.2s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#boxVermelho {
+    width: 100%;
+    height: 15.1vh;
+    background-color: #962611;
+    box-sizing: border-box;
+    padding-top: 4vh;
+}
+
+#menu_logo {
+    width: 80vw;
+    height: 8vh;
+    background: ;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#centro_logo {
+    height: inherit;
+    width: 10vw;
+    background-color: ;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+}
+
+#LogoPrincipal {
+    height: 100%;
+    width: 100%;
+}
+
+#restauranteImg {
+    width: 100%;
+    height: 100%;
+}
+
+#boxMenu {
+    height: inherit;
+    width: 3vw;
+    line-height: 8vh;
+    text-align: center;
+    z-index: 999;
+    box-sizing: border-box;
+    padding-top: 2vh;
+    padding-left: 0.5vw;
+}
+
+#boxLogo {
+    background-color: #962611;
+    height: inherit;
+    width: inherit;
+    text-align: center;
+}
+
+#areaSejaParceiro {
+    width: 40%;
+    min-height: 80vh;
+    /* background-color: rgb(167, 167, 167); */
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    margin-top: 1vh;
+    box-sizing: border-box;
+    padding: 2vh;
+}
+
+#boxMenu:hover>#div_menu {
+    background-color: black;
+    z-index: 999;
+    visibility: visible;
+    opacity: 1;
+    margin-left: 2.5vw;
+    transition: 0.5s;
+}
+
+#boxMenu:hover>#div_menu>#nome_foto_local {}
+
+#boxMenu:hover>#div_menu>.menu_itens {
+    width: 20vw;
+    /* background-color: red; */
+    z-index: 999;
+}
+
+.menu_itens:hover {
+    cursor: pointer;
+}
+
+#nome_foto_local {
+    width: 100%;
+    height: 20vh;
+    background-color: rebeccapurple;
+    background-image: url('../images/imgsMenu/fundoPerfil.jpg');
+    background-position: left;
+    background-size: cover;
+    opacity: 0.7;
+    display: flex;
+    flex-direction: column;
+}
+
+#fotoUsuario {
+    margin-left: auto;
+    margin-right: auto;
+    width: 5vw;
+    height: 10vh;
+    background-color: #962611;
+    border-radius: 50%;
+    margin-top: 1vh;
+}
+
+#dadosUsuarioNome {
+    width: 40%;
+    height: 10%;
+    background-color: ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1vh;
+    text-align: center;
+    background-color: #962611;
+    font-weight: bold;
+}
+
+#dadosUsuarioLocal {
+    width: 40%;
+    height: 15%;
+    background-color: ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1vh;
+    background-color: #962611;
+    font-weight: bold;
+    display: flex;
+}
+
+.menu_itens {
+    min-width: 100%;
+    min-height: 5%;
+    box-sizing: border-box;
+    padding-left: 10%;
+    line-height: inherit;
+    color: rgb(197, 197, 197);
+    margin-top: 1vh;
+}
+
+#tituloContato {
+    min-width: 10vw;
+    height: 5vh;
+    text-align: left;
+    line-height: 4vh;
+    background-color: yellow;
+    font-family: "Roboto";
+    display: flex;
+    font-size: 2.5vh;
+    flex-direction: column;
+}
+
+#barraColorida {
+    margin-top: auto;
+    height: 10%;
+    width: 100%;
+    background-color: #962611;
+}
+
+#areaTxt {
+    margin-top: 1vh;
+    width: 100%;
+    height: 50vh;
+    background-color: aqua;
+    margin-right: auto;
+    font-size: 25px;
+    font-family: "Roboto";
+    color: rgb(106, 106, 106);
+}
+
+#tituloTxt {
+    min-width: 10vw;
+    min-height: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5vh;
+    background-color: red;
+    text-align: center;
+    line-height: 5vh;
+    font-family: "HelveticaNeue";
+    color: rgb(93, 93, 93);
+    font-weight: bold;
+}
+
+#txt2 {
+    min-width: 90%;
+    min-height: 20%;
+    background-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1vh;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#btnEnviarEmail {
+    width: 50%;
+    height: 5vh;
+    margin-top: 2vh;
+    background-color: rgb(216, 56, 10);
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    box-sizing: border-box;
+    padding: 0.5vh;
+    justify-content: center;
+}
+
+#email_icon {
+    height: 80%;
+    width: 10%;
+    /* background-color: black; */
+    background-image: url('../../images/imgsMenu/email_icon.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-top: 0.4vh;
+}
+
+#txt_enviar {
+    /* background-color: khaki; */
+    height: 100%;
+    min-width: 40%;
+    margin-left: 0.5vw;
+    text-align: center;
+    line-height: 4vh;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#buscar {
+    width: 100%;
+    height: 7vh;
+    background: ;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 1vh;
+}
+
+#txtBuscar {
+    height: 90%;
+    width: 100%;
+    background-color: ;
+    border-style: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#boxInput {
+    height: 85%;
+    width: 80%;
+    background-color: ;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    border-radius: 10px;
+}
+
+#imgLupa {
+    width: 3%;
+    height: 4.6vh;
+    background: white;
+    box-sizing: border-box;
+    padding-top: 1vh;
+    box-sizing: border-box;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#divFiltro {
+    width: 100%;
+    height: 5vh;
+    background-color: white;
+    display: flex;
+}
+
+#box_img_select {
+    width: 80%;
+    height: 80%;
+    background-color: ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5vh;
+    display: flex;
+    border-bottom: solid 0.1vh;
+}
+
+#imgFiltro {
+    width: 3%;
+    height: 100%;
+    background-color: ;
+    line-height: 4vh;
+}
+
+#sltFiltro {
+    width: 100%;
+    height: 100%;
+    background-color: ;
+    text-align: left;
+    line-height: 4vh;
+    font-size: 2vh;
+}
+
+#tituloSejaParceiro {
+    width: 8vw;
+    height: 3vh;
+    text-align: left;
+    line-height: 3vh;
+    color: rgb(150, 38, 17);
+    font-weight: bold;
+    border-bottom: rgb(150, 38, 17);
+    border-bottom: 0.5vh solid;
+    font-size: 2.5vh;
+}
+
+#txtParceiro {
+    width: 100%;
+    margin-top: 2vh;
+    min-height: 30vh;
+    color: rgb(93, 93, 93);
+    background-color: ;
+    font-size: 2.5vh;
+}
+
+#div_btn_cadastrar {
+    width: 18vw;
+    height: 6vh;
+    background-color: rgb(150, 38, 17);
+    margin-top: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding: 1vh;
+    display: flex;
+    flex-direction: row;
+}
+
+#iconCadastrar {
+    width: 2.2vw;
+    height: 100%;
+    background-color: ;
+    background-image: url('../../images/imgsMenu/iconCadastro.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 2.5vw;
+}
+
+#btn_txt {
+    width: 50%;
+    height: 100%;
+    background-color: ;
+    text-align: center;
+    margin-left: 1vw;
+    line-height: 4vh;
+    color: white;
+    font-weight: bold;
+    font-size: 2vh;
+}

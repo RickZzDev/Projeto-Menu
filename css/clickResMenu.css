@@ -1,0 +1,126 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#caixaBgRestaruante {
+    width: 100%;
+    height: 40vh;
+    background-color: blue;
+    background-image: url('../images/imgMenuRestaurante/bgRestaurante.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+#iconeSeta {
+    height: 6vh;
+    width: 4vw;
+    margin-right: auto;
+    background-color: ;
+}
+
+#iconeFavorito {
+    height: 6vh;
+    width: 2vw;
+    margin-left: auto;
+    margin-right: 2vw;
+    margin-top: 1vh;
+}
+
+#areaOpcoes {
+    width: 50vw;
+    height: 15vh;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10vh;
+    -webkit-box-shadow: 2px 3px 10px -2px #000000;
+    box-shadow: 2px 3px 10px -2px #000000;
+}
+
+#nome_status {
+    width: 100%;
+    height: 25%;
+    background-color: white;
+    display: flex;
+}
+
+#boxLocalizacao {
+    width: 100%;
+    height: 25%;
+    background-color: white;
+    display: flex;
+    padding-left: 6.8%;
+    box-sizing: border-box;
+    line-height: 4vh;
+    border-bottom: solid gray 0.1vh;
+}
+
+#divNome {
+    width: 30%;
+    height: 100%;
+    background: white;
+    text-align: center;
+    line-height: 4vh;
+}
+
+#divStatus {
+    width: 10%;
+    height: 90%;
+    margin-left: auto;
+    margin-right: 1vw;
+    margin-top: 2px;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 3.5vh;
+    color: white;
+    background-color: rgb(150, 38, 17);
+}
+
+#opcoes {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.divOpcao {
+    width: 33%;
+    height: 100%;
+    background-color: white;
+    text-align: center;
+    line-height: 7vh;
+}
+
+.barraVermelha {
+    width: 100%;
+    height: 10%;
+    background-color: rgb(150, 38, 17);
+    ;
+}
+
+#boxFotoMenu {
+    width: 50vw;
+    height: 60vh;
+    background-color: royalblue;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1vh;
+}
+
+#reservarMesa {
+    width: 15vw;
+    height: 5vh;
+    background-color: rgb(150, 38, 17);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    margin-top: -20px;
+    line-height: 5vh;
+    text-align: center;
+    color: white;
+    font-size: 3vh;
+}

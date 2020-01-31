@@ -1,0 +1,495 @@
+#bgIntro1 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../images/imgsIntro1/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bgIntro2 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../images/imgsIntro2/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bgIntro3 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../images/imgsIntro3/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #ffa500;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+
+/*Caixa principal*/
+
+#caixaPrincipal {
+    width: 80vw;
+    height: 80vh;
+    background-color: ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    flex-direction: column;
+}
+
+#imgIcone {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+    height: 30vh;
+    background-color: ;
+    margin-top: 2vh;
+}
+
+img {
+    width: inherit;
+    height: inherit;
+}
+
+
+/*AREA DOS TEXTOS */
+
+#txtDescubra {
+    width: 50vw;
+    height: 40vh;
+    background-color: ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+#radio {
+    margin-right: 1vw;
+    margin-left: 1vw;
+}
+
+#titulo {
+    background-color: ;
+    width: 5vw;
+    height: 4vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7vh;
+}
+
+#txtIntro1 {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: ;
+    width: 12vw;
+    height: 5vh;
+    margin-top: 5vh;
+}
+
+#boxRadios {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: ;
+    width: 8.3vw;
+    height: 10vh;
+    margin-top: 5vh;
+}
+
+
+/************/
+
+
+/*AREA DE ESTILIZAÇÂO DA INTRO3*/
+
+#boxAproveite {
+    background-color: #fdb811;
+    width: 17vw;
+    height: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    border-radius: 50px;
+    font-size: 3vh;
+    box-sizing: border-box;
+    padding-left: 5vw;
+    /* padding-top: -35px; */
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+}
+
+font {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/************LOGIN*****************/
+
+#caixaPrincipalLogin {
+    width: 80vw;
+    height: 90vh;
+    background-color: ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    flex-direction: column;
+}
+
+#txtComece {
+    width: 25vw;
+    height: 3.8vh;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2vh;
+    padding: 0px;
+    background-image: url('../images/imgsLogin/txt.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#btnContinuar {
+    background-color: rgb(0, 161, 35);
+    width: 16vw;
+    height: 7vh;
+    margin-top: 2vh;
+    text-align: center;
+    box-sizing: border-box;
+    line-height: 7vh;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#btnInput {
+    display: none;
+}
+
+#labelFoto {
+    /* background-color: aqua; */
+    box-sizing: border-box;
+    padding-left: 0.5vw;
+}
+
+#txtNome {
+    color: white;
+    font-size: 2vh;
+}
+
+#txtSenha {
+    color: white;
+    font-size: 2vh;
+}
+
+#txtEmail {
+    color: white;
+    font-size: 2vh;
+}
+
+#txtCelular {
+    color: white;
+    font-size: 2vh;
+}
+
+#labelInput {
+    margin-left: 30%;
+    width: 20vw;
+}
+
+#fleFotoUsuario {
+    display: none;
+}
+
+#loginParceiro {
+    background-color: rgb(60, 91, 155);
+    width: 20vw;
+    height: 7vh;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 12vh;
+    text-align: center;
+    box-sizing: border-box;
+    line-height: 7vh;
+    color: white;
+}
+
+#loginUsuario {
+    background-color: white;
+    width: 20vw;
+    height: 7vh;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 4vh;
+    text-align: center;
+    box-sizing: border-box;
+    line-height: 7vh;
+    color: black;
+}
+
+#boxEmail {
+    width: 16vw;
+    height: 7vh;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: row;
+}
+
+#inputEmail {
+    width: 13.5vw;
+    height: 7vh;
+    border-style: none;
+    color: white;
+    font-size: 2vh;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#divisor {
+    width: 16vw;
+    height: 1.2vh;
+    background-color: ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.3vh;
+}
+
+#boxFacebook {
+    width: 16vw;
+    height: 7vh;
+    background-color: rgba(3, 0, 160, 1);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    line-height: 7vh;
+    color: white;
+}
+
+#txtFace {
+    width: 18vw;
+    height: 7vh;
+    background-color: "#3c5b9b";
+    text-align: center;
+    line-height: 7vh;
+    color: white;
+    font-size: 2.5vh;
+}
+
+::placeholder {
+    color: white;
+}
+
+#imgEmail {
+    width: 2.3vw;
+    height: 6vh;
+    background-color: ;
+    box-sizing: border-box;
+    line-height: 7vh;
+    margin-top: 0.5vh;
+    padding-left: 0.3vw;
+}
+
+#boxGoogle {
+    width: 16vw;
+    height: 7vh;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    line-height: 7vh;
+    color: white;
+}
+
+#imgFace {
+    width: 2.3vw;
+    height: 7vh;
+    background-color: '#4569b4';
+    box-sizing: border-box;
+    margin-top: 0.8vh;
+    margin-left: 0.3vw;
+    /* background-color: lawngreen; */
+    background-image: url('../images/imgsLogin/faceIcon.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#imgGoogle {
+    width: 2.3vw;
+    height: 6vh;
+    line-height: 7vh;
+    margin-top: 0.5vh;
+    margin-left: 0.3vw;
+    padding-left: 0.3vw;
+    background-image: url('../images/imgsLogin/icon_google.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#txtGoogle {
+    width: 18vw;
+    height: 7vh;
+    background-color: white;
+    text-align: center;
+    line-height: 7vh;
+    color: rgb(24, 23, 23);
+    font-size: 2.5vh;
+}
+
+
+/***************Cadastro Usuario*******************/
+
+#caixaPrincipalCadastro {
+    width: 50vw;
+    height: 90vh;
+    background-color: ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    flex-direction: column;
+}
+
+#boxCriarConta {
+    height: 4vh;
+    width: 27vw;
+    background-color: ;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+#tituloTxtConta {
+    width: 25vw;
+    height: 4vh;
+    background-color: ;
+    line-height: 4vh;
+    align-content: center;
+    box-sizing: border-box;
+    padding-left: 4vw;
+}
+
+#div_seta {
+    height: 100%;
+    width: 3vw;
+    background-image: url('../images/imgsCadastro/seta.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#imgSeta {
+    width: 2.8vw;
+    height: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 0.5vw;
+    margin-top: 0.9vh;
+    background-image: url('../images/imgsIntro3/seta.png');
+}
+
+#fotoCirculo {
+    width: 8vw;
+    height: 17vh;
+    background-color: rgba(192, 192, 192, 0.5);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4vh;
+    border-radius: 50%;
+    padding-left: 1vw;
+    padding-top: 1vh;
+}
+
+#boxCamera {
+    width: 6vw;
+    height: 11vh;
+    background-color: ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3vh;
+    box-sizing: border-box;
+    padding-left: 0.2vw;
+}
+
+.boxInputs {
+    width: 20vw;
+    height: 8vh;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgba(192, 192, 192, 0.5);
+    margin-top: 2vh;
+    display: flex;
+}
+
+.boxIconsCadastro {
+    width: 3vw;
+    height: inherit;
+    background-color: ;
+    padding-left: 0.3vw;
+    padding-top: 1vh;
+}
+
+.inputsCadastro {
+    width: 17vw;
+    height: 8vh;
+    background-color: ;
+    border-style: none;
+    padding-left: 0.5vw;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#btnLogar {
+    display: none;
+}
+
+#frmLogin {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: red;
+}
+
+#labelInput {
+    display: flex;
+    background-color: ;
+    margin-right: auto;
+    margin-left: auto;
+}

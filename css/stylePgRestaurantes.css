@@ -1,0 +1,295 @@
+#div_menu {
+    width: 20vw;
+    height: 100vh;
+    background: black;
+    z-index: 999;
+    margin-top: -8vh;
+    transition: 0.2s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#boxVermelho {
+    width: 100%;
+    height: 19.1vh;
+    background-color: #962611;
+}
+
+#menu_logo {
+    width: 80vw;
+    height: 8vh;
+    background: ;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#centro_logo {
+    height: inherit;
+    width: 10vw;
+    background-color: #962611;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+}
+
+#LogoPrincipal {
+    height: 100%;
+    width: 100%;
+}
+
+#restauranteImg {
+    width: 100%;
+    height: 100%;
+}
+
+#boxMenu {
+    height: inherit;
+    width: 3vw;
+    line-height: 8vh;
+    text-align: center;
+    z-index: 999;
+}
+
+#boxLogo {
+    background-color: #962611;
+    height: inherit;
+    width: inherit;
+    text-align: center;
+}
+
+#buscar {
+    width: 100%;
+    height: 7vh;
+    background: ;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 1vh;
+}
+
+#txtBuscar {
+    height: 90%;
+    width: 100%;
+    background-color: ;
+    border-style: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#boxInput {
+    height: 85%;
+    width: 80%;
+    background-color: ;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    border-radius: 10px;
+}
+
+#imgLupa {
+    width: 3%;
+    height: 4.6vh;
+    background: white;
+    line-height: 4.6vh;
+    box-sizing: border-box;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#divFiltro {
+    width: 100%;
+    height: 5vh;
+    background-color: white;
+    display: flex;
+}
+
+#box_img_select {
+    width: 80%;
+    height: 80%;
+    background-color: ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5vh;
+    display: flex;
+    border-bottom: solid 0.1vh;
+}
+
+#imgFiltro {
+    width: 3%;
+    height: 100%;
+    background-color: ;
+    line-height: 4vh;
+}
+
+#sltFiltro {
+    width: 100%;
+    height: 100%;
+    background-color: ;
+    text-align: left;
+    line-height: 4vh;
+    font-size: 2vh;
+}
+
+#areaRestaurantes {
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 3vh;
+}
+
+#divRestaurantes {
+    width: 50vw;
+    min-height: 45vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: ;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1vh;
+    margin-bottom: 1vh;
+    flex-wrap: wrap;
+}
+
+#boxPrincipalRestaurante {
+    width: 20vw;
+    height: 40vh;
+    background-color: white;
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 2px 6px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 2px 6px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 2px 6px 0px rgba(0, 0, 0, 0.75);
+    margin-top: 1.5vh;
+}
+
+#imgRestaurante {
+    width: 100%;
+    height: 60%;
+    background-color: ;
+}
+
+#nomeRestaurante {
+    width: 100%;
+    height: 12%;
+    background-color: ;
+    padding-left: 0.2vw;
+}
+
+#enderecoRestaurante {
+    width: 100%;
+    height: 10%;
+    background-color: ;
+    padding-left: 0.2vw;
+}
+
+#hastagsRestaurante {
+    width: 100%;
+    height: 10%;
+    padding-left: 0.2vw;
+}
+
+#avaliacoesRestaurante {
+    width: 100%;
+    height: 12%;
+    padding-left: 0.2vw;
+    background-color: ;
+}
+
+#verMaisRestaurantes {
+    width: 35vw;
+    height: 10vh;
+    background-color: #962611;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1vh;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    line-height: 10vh;
+}
+
+#verMaisRestaurantesPng {
+    margin-left: 8vw;
+    width: 20vw;
+    background-color: ;
+}
+
+#boxMenu:hover>#div_menu {
+    background-color: black;
+    /* z-index: 999; */
+    visibility: visible;
+    opacity: 1;
+    margin-left: 2.5vw;
+    transition: 0.5s;
+}
+
+#boxMenu:hover>#div_menu>#nome_foto_local {}
+
+
+/* #boxMenu:hover>#div_menu>.menu_itens {
+    width: 20vw;
+    z-index: 999;
+} */
+
+.menu_itens:hover {
+    cursor: pointer;
+    width: 100%;
+}
+
+#nome_foto_local {
+    width: 100%;
+    height: 20vh;
+    background-color: rebeccapurple;
+    background-image: url('../images/imgsMenu/fundoPerfil.jpg');
+    background-position: left;
+    background-size: cover;
+    opacity: 0.7;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3vh;
+}
+
+#fotoUsuario {
+    margin-left: auto;
+    margin-right: auto;
+    width: 5vw;
+    height: 10vh;
+    background-color: #962611;
+    border-radius: 50%;
+    margin-top: 1vh;
+}
+
+#dadosUsuarioNome {
+    width: 40%;
+    height: 10%;
+    background-color: ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1vh;
+    text-align: center;
+    background-color: #962611;
+    font-weight: bold;
+}
+
+#dadosUsuarioLocal {
+    width: 40%;
+    height: 15%;
+    background-color: ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1vh;
+    background-color: #962611;
+    font-weight: bold;
+    display: flex;
+}
+
+.menu_itens {
+    width: 100%;
+    height: 5%;
+    box-sizing: border-box;
+    color: rgb(197, 197, 197);
+    margin-top: 1vh;
+    /* background-color: red; */
+    z-index: 999;
+}

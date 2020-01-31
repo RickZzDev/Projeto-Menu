@@ -1,0 +1,234 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    max-width: auto;
+    height: 100%;
+}
+
+#caixaBgRestaruante {
+    width: 100%;
+    height: 40vh;
+    background-color: ;
+    background-image: url('../images/imgMenuRestaurante/bgRestaurante.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+#iconeSeta {
+    height: 4vh;
+    width: 2vw;
+    margin-right: auto;
+    background-color: ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('../images/imgsReserva/arrow-left.png');
+}
+
+#iconeFavorito {
+    height: 6vh;
+    width: 6vw;
+    margin-left: auto;
+    background-color: ;
+}
+
+#areaOpcoes {
+    width: 50vw;
+    height: 10vh;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10vh;
+}
+
+#nome_status {
+    width: 100%;
+    height: 35%;
+    background-color: ;
+    display: flex;
+}
+
+#boxLocalizacao {
+    width: 100%;
+    height: 25%;
+    background-color: white;
+    display: flex;
+    padding-left: 6.8%;
+    box-sizing: border-box;
+    line-height: 4vh;
+    border-bottom: solid gray 0.1vh;
+}
+
+#divNome {
+    width: 30%;
+    height: 100%;
+    background: ;
+    text-align: center;
+    line-height: 4vh;
+}
+
+#divStatus {
+    margin-left: auto;
+    margin-right: 1vw;
+    margin-top: 2px;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 3.5vh;
+    color: white;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    background-color: rgb(150, 38, 17);
+}
+
+#opcoes {
+    width: 100%;
+    height: 65%;
+    background-color: ;
+    display: flex;
+    justify-content: space-around;
+}
+
+.divOpcao {
+    width: 33%;
+    height: 100%;
+    background-color: ;
+    text-align: center;
+    line-height: 6vh;
+}
+
+.barraVermelha {
+    width: 100%;
+    height: 10%;
+    background-color: rgb(150, 38, 17);
+}
+
+#boxFotoMenu {
+    width: 50vw;
+    min-height: 60vh;
+    background-color: ;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#reservarMesa {
+    max-width: 35vw;
+    background-color: rgb(150, 38, 17);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    margin-top: -20px;
+    line-height: 5vh;
+    text-align: center;
+    color: white;
+    font-size: 3vh;
+}
+
+.reservaProg {
+    width: 50%;
+    height: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: ;
+}
+
+#caixaTxt1 {
+    margin-top: 4vh;
+    min-width: 40%;
+    height: 4vh;
+    background-color: ;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    line-height: 4vh;
+    font-size: 36px;
+    font-family: "HelveticaNeue";
+    color: rgb(93, 93, 93);
+}
+
+#caixaTxt2 {
+    margin-top: 2vh;
+    min-width: 40%;
+    min-height: 20vh;
+    background-color: ;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    line-height: 4vh;
+    font-size: 30px;
+    font-family: "HelveticaNeue";
+    color: rgb(93, 93, 93);
+}
+
+#boxLigar {
+    display: flex;
+    flex-direction: row;
+    min-width: 20vw;
+    height: 5vh;
+    box-sizing: border-box;
+    padding-left: 1vw;
+    padding-right: 2vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(73, 198, 88);
+    border-radius: 50px;
+    margin-top: 1vh;
+    position: relative;
+    font-size: 40px;
+    font-family: "Signika";
+    color: rgb(255, 255, 255);
+    line-height: 5vh;
+    text-align: center;
+    -moz-transform: matrix( 0.702, 0, 0, 0.70588235294118, 0, 0);
+    -webkit-transform: matrix( 0.702, 0, 0, 0.70588235294118, 0, 0);
+    -ms-transform: matrix( 0.702, 0, 0, 0.70588235294118, 0, 0);
+}
+
+#areaIcone {
+    width: 13%;
+    height: 95%;
+    background-color: ;
+    background-image: url("../images/imgsReserva/telefone.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 3vw;
+}
+
+#areaIconeHome {
+    width: 13%;
+    height: 90%;
+    background-image: url("../images/imgsReserva/home.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 0.5vw;
+}
+
+#boxInicio {
+    display: flex;
+    min-width: 20vw;
+    height: 5vh;
+    box-sizing: border-box;
+    padding-left: 0.5vw;
+    padding-right: 2vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(150, 38, 17);
+    border-radius: 50px;
+    margin-top: 1vh;
+    position: relative;
+    font-size: 40px;
+    font-family: "Signika";
+    color: rgb(255, 255, 255);
+    line-height: 5vh;
+    text-align: center;
+    -moz-transform: matrix( 0.702, 0, 0, 0.70588235294118, 0, 0);
+    -webkit-transform: matrix( 0.702, 0, 0, 0.70588235294118, 0, 0);
+    -ms-transform: matrix( 0.702, 0, 0, 0.70588235294118, 0, 0);
+    margin-bottom: 10vh;
+}

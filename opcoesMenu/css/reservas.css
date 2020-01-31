@@ -1,0 +1,276 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#div_menu {
+    width: 20vw;
+    height: 100vh;
+    background: black;
+    z-index: 999;
+    margin-top: -8vh;
+    transition: 0.2s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#boxVermelho {
+    width: 100%;
+    height: 15.1vh;
+    background-color: #962611;
+    box-sizing: border-box;
+    padding-top: 4vh;
+}
+
+#menu_logo {
+    width: 80vw;
+    height: 8vh;
+    background: ;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#centro_logo {
+    height: inherit;
+    width: 10vw;
+    background-color: #962611;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+}
+
+#LogoPrincipal {
+    height: 100%;
+    width: 100%;
+}
+
+#restauranteImg {
+    width: 100%;
+    height: 100%;
+}
+
+#boxMenu {
+    height: inherit;
+    width: 3vw;
+    line-height: 8vh;
+    text-align: center;
+    z-index: 999;
+    box-sizing: border-box;
+    padding-top: 2vh;
+    padding-left: 0.5vw;
+}
+
+#boxLogo {
+    background-color: #962611;
+    height: inherit;
+    width: inherit;
+    text-align: center;
+}
+
+#areaReservas {
+    width: 50%;
+    min-height: 80vh;
+    /* background-color: rgb(167, 167, 167); */
+    background-color: white;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    padding-top: 3vh;
+    margin-top: 1vh;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#boxMenu:hover>#div_menu {
+    background-color: black;
+    z-index: 999;
+    visibility: visible;
+    opacity: 1;
+    margin-left: 2.5vw;
+    transition: 0.5s;
+}
+
+#boxMenu:hover>#div_menu>#nome_foto_local {}
+
+#boxMenu:hover>#div_menu>.menu_itens {
+    width: 20vw;
+    /* background-color: red; */
+    z-index: 999;
+}
+
+.menu_itens:hover {
+    cursor: pointer;
+}
+
+#nome_foto_local {
+    width: 100%;
+    height: 20vh;
+    background-color: ;
+    background-image: url('../images/imgsMenu/fundoPerfil.jpg');
+    background-position: left;
+    background-size: cover;
+    opacity: 0.7;
+    display: flex;
+    flex-direction: column;
+}
+
+#fotoUsuario {
+    margin-left: auto;
+    margin-right: auto;
+    width: 5vw;
+    height: 10vh;
+    background-color: #962611;
+    border-radius: 50%;
+    margin-top: 1vh;
+}
+
+#dadosUsuarioNome {
+    width: 40%;
+    height: 10%;
+    background-color: ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1vh;
+    text-align: center;
+    background-color: #962611;
+    font-weight: bold;
+}
+
+#dadosUsuarioLocal {
+    width: 40%;
+    height: 15%;
+    background-color: ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1vh;
+    background-color: #962611;
+    font-weight: bold;
+    display: flex;
+}
+
+.menu_itens {
+    min-width: 100%;
+    min-height: 5%;
+    box-sizing: border-box;
+    padding-left: 10%;
+    line-height: inherit;
+    color: rgb(197, 197, 197);
+    margin-top: 1vh;
+}
+
+#tituloReservas {
+    min-width: 10vw;
+    max-width: 40vw;
+    height: 5vh;
+    text-align: left;
+    line-height: 4vh;
+    background-color: ;
+    font-family: "Roboto";
+    display: flex;
+    font-size: 2.5vh;
+    flex-direction: column;
+    color: #962611;
+    margin-bottom: 2vh;
+}
+
+#barraColorida {
+    margin-top: auto;
+    height: 10%;
+    width: 100%;
+    background-color: #962611;
+}
+
+.boxReservas {
+    width: 100%;
+    /*Esta width devera ser de 100% no mobile*/
+    height: 12vh;
+    background-color: white;
+    padding: 0.5vh;
+    box-sizing: border-box;
+    display: flex;
+    border-radius: 5px;
+    -webkit-box-shadow: 1px 1px 13px -3px #000000;
+    box-shadow: 1px 1px 13px -3px #000000;
+}
+
+.imgReserva {
+    width: 20%;
+    height: 100%;
+    background-color: coral;
+    margin-right: 0.5vw;
+}
+
+.reservaDados {
+    height: 100%;
+    width: 100%;
+    background-color: ;
+}
+
+.divLinha {
+    width: 100%;
+    height: 23%;
+    background-color: ;
+    display: flex;
+    padding: 0.2vh;
+    box-sizing: border-box;
+    margin-bottom: 0.3vh;
+}
+
+.divNome {
+    min-width: 30%;
+    height: 100%;
+    background-color: ;
+    text-align: center;
+    font-size: 2vh;
+}
+
+.divStatus {
+    min-width: 20%;
+    height: 100%;
+    margin-left: auto;
+    background-color: rgb(150, 38, 17);
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+.iconeHora {
+    height: 100%;
+    width: 5%;
+    background-color: ;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 2px;
+}
+
+.iconeTelefone {
+    height: 100%;
+    width: 5%;
+    background-color: ;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 2px;
+}
+
+.iconeEmail {
+    height: 100%;
+    width: 5%;
+    background-color: ;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 2px;
+}
+
+.areaTxtDados {
+    width: 100%;
+    height: 100%;
+    margin-left: 0.3vw;
+    background-color: ;
+}

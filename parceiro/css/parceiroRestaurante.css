@@ -1,0 +1,457 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#div_menu {
+    width: 20vw;
+    height: 100vh;
+    background: black;
+    z-index: 999;
+    margin-top: -8vh;
+    transition: 0.2s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#boxVermelho {
+    width: 100%;
+    height: 13.1vh;
+    background-color: #962611;
+    box-sizing: border-box;
+    padding-top: 4vh;
+}
+
+#menu_logo {
+    width: 80vw;
+    height: 8vh;
+    background: ;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#centro_logo {
+    height: inherit;
+    width: 10vw;
+    background-color: #962611;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+}
+
+#LogoPrincipal {
+    height: 100%;
+    width: 100%;
+}
+
+#restauranteImg {
+    width: 100%;
+    height: 100%;
+}
+
+#boxMenu {
+    height: inherit;
+    width: 3vw;
+    line-height: 8vh;
+    text-align: center;
+    z-index: 999;
+    box-sizing: border-box;
+    padding-top: 2vh;
+    padding-left: 0.5vw;
+}
+
+#boxLogo {
+    background-color: #962611;
+    height: inherit;
+    width: inherit;
+    text-align: center;
+}
+
+#div_acrescentar {
+    width: 2.5vw;
+    height: 5.8vh;
+    background-color: #962611;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: 11%;
+    border-radius: 50%;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 5.8vh;
+    color: white;
+    font-size: 4vh;
+    font-weight: bold;
+}
+
+#areaCadastro {
+    width: 40%;
+    min-height: 80vh;
+    /* background-color: rgb(167, 167, 167); */
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    padding-top: 3vh;
+    margin-top: 2vh;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#boxMenu:hover>#div_menu {
+    background-color: black;
+    z-index: 999;
+    visibility: visible;
+    opacity: 1;
+    margin-left: 2.5vw;
+    transition: 0.5s;
+}
+
+#boxMenu:hover>#div_menu>#nome_foto_local {}
+
+#boxMenu:hover>#div_menu>.menu_itens {
+    width: 20vw;
+    /* background-color: red; */
+    z-index: 999;
+}
+
+.menu_itens:hover {
+    cursor: pointer;
+}
+
+#nome_foto_local {
+    width: 100%;
+    height: 20vh;
+    background-color: rebeccapurple;
+    background-image: url('../images/imgsMenu/fundoPerfil.jpg');
+    background-position: left;
+    background-size: cover;
+    opacity: 0.7;
+    display: flex;
+    flex-direction: column;
+}
+
+#fotoUsuario {
+    margin-left: auto;
+    margin-right: auto;
+    width: 5vw;
+    height: 10vh;
+    background-color: #962611;
+    border-radius: 50%;
+    margin-top: 1vh;
+}
+
+#dadosUsuarioNome {
+    width: 40%;
+    height: 10%;
+    background-color: ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1vh;
+    text-align: center;
+    background-color: #962611;
+    font-weight: bold;
+}
+
+#dadosUsuarioLocal {
+    width: 40%;
+    height: 15%;
+    background-color: ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1vh;
+    background-color: #962611;
+    font-weight: bold;
+    display: flex;
+}
+
+.menu_itens {
+    min-width: 100%;
+    min-height: 5%;
+    box-sizing: border-box;
+    padding-left: 10%;
+    line-height: inherit;
+    color: rgb(197, 197, 197);
+    margin-top: 1vh;
+}
+
+#boxSteps {
+    width: 80%;
+    height: 8vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    -webkit-box-shadow: -3px 0px 10px 6px rgba(0, 0, 0, 0.27);
+    box-shadow: -3px 0px 10px 6px rgba(0, 0, 0, 0.27);
+}
+
+#tituloArea {
+    width: 100%;
+    height: 50%;
+    box-sizing: border-box;
+    padding: 1vh;
+    padding-left: 1.3vw;
+    font-size: 2vh;
+    font-weight: bold;
+    border-bottom: solid 0.1vh;
+}
+
+#restaurante_evento {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+#div_restaurante {
+    width: 20%;
+    height: 90%;
+    margin-right: 0.5vw;
+    margin-left: 0.5vw;
+    text-align: center;
+    font-size: 2vh;
+    line-height: 4vh;
+    border-bottom: solid 0.2vh rgb(150, 38, 17);
+}
+
+#div_evento {
+    width: 20%;
+    height: 90%;
+    text-align: center;
+    font-size: 2vh;
+    line-height: 4vh;
+    border-bottom: solid 0.2vh rgb(150, 38, 17);
+}
+
+#txt1 {
+    width: 30vw;
+    height: 4vh;
+    margin-top: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    line-height: 4vh;
+    font-size: 1.8vh;
+    margin-bottom: 1vh;
+    font-family: "HelveticaNeue";
+}
+
+#boxRadios {
+    min-width: 80%;
+    height: 5vh;
+    background-color: red;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0.5vh;
+    box-sizing: border-box;
+    padding: 0.5vh;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2vh;
+}
+
+#restaurante_radio {
+    height: 100%;
+    min-width: 10vw;
+    background-color: teal;
+    margin-right: 2vw;
+    display: flex;
+    box-sizing: border-box;
+    padding: 1vh;
+}
+
+#evento_radio {
+    height: 100%;
+    min-width: 10vw;
+    background-color: teal;
+    display: flex;
+    box-sizing: border-box;
+    padding: 1vh;
+}
+
+.txtInput {
+    width: 30vw;
+    height: 4vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1vh;
+    border-radius: 10px;
+    border-style: none;
+    box-sizing: border-box;
+    padding-left: 0.5vw;
+}
+
+#txtInputObs {
+    width: 30vw;
+    height: 7vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1vh;
+    border-radius: 10px;
+    border-style: none;
+    box-sizing: border-box;
+    padding-left: 0.5vw;
+}
+
+.iconEmail {
+    width: 10%;
+    height: 100%;
+    background-color: ;
+    margin-left: 7vw;
+    background-image: url('../imagens/imgsCadastro/email.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#txtLogo {
+    background-color: ;
+    line-height: 4.6vh;
+    margin-left: 1vw;
+    color: white;
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+#fleFotoLogo {
+    display: none;
+}
+
+#btnContinuar {
+    margin-left: auto;
+    margin-right: auto;
+    width: 15vw;
+    height: 5vh;
+    background-color: rgb(150, 38, 17);
+    border-radius: 25px;
+    text-align: center;
+    line-height: 5vh;
+    color: white;
+    font-size: 2vh;
+    display: flex;
+    box-sizing: border-box;
+    padding-left: 4vw;
+}
+
+#txtTitulo {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4vh;
+    width: 80%;
+    height: 7vh;
+    /* background-color: blue; */
+    text-align: center;
+    line-height: 7vh;
+    font-size: 3.5vh;
+}
+
+#txtConfirm {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 7vh;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 1vh;
+    font-size: 2.3vh;
+}
+
+#btnInicio {
+    margin-left: auto;
+    margin-right: auto;
+    height: 5vh;
+    width: 50%;
+    margin-top: 7vh;
+    border-radius: 3vh;
+    background-color: rgb( 73, 198, 88);
+    display: flex;
+}
+
+#iconHome {
+    width: 10%;
+    height: 100%;
+    margin-left: 4vw;
+    background-image: url('../imagens/imgsCadastro/home.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#txtInicio {
+    width: 60%;
+    height: 100%;
+    margin-left: 0.5vw;
+    box-sizing: border-box;
+    padding: 1vh;
+    font-size: 2.5vh;
+    color: white;
+}
+
+.boxRestaurantes {
+    margin-top: 3vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 31vw;
+    height: 9vh;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 0.3vh;
+    display: flex;
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 3px 13px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 3px 13px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 3px 13px -4px rgba(0, 0, 0, 0.75);
+}
+
+.imgRestaurante {
+    width: 13%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../imagens/imgsCadastro/imgRestaurante.png');
+}
+
+.infoRestaurante {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.nomeRestaurante {
+    width: 100%;
+    height: 60%;
+    box-sizing: border-box;
+    padding: 1vh;
+    font-size: 2.5vh;
+}
+
+.enderecoRestaurante {
+    width: 100%;
+    height: 41%;
+    box-sizing: border-box;
+    padding: 1vh;
+    color: grey;
+}
+
+.imgSeta {
+    width: 5%;
+    height: 100%;
+    margin-left: auto;
+    background-image: url('../imagens/imgsCadastro/seta.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/*************/
+
+@media only screen and (max-width: 900px) {
+    #areaCadastro {
+        width: 80%;
+    }
+    #boxVermelho {
+        width: 100%;
+    }
+}
